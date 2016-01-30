@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd0c2a7">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/weartype"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_row="0"
+                    android:layout_column="0" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerPrenda"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_row="0"
+                    android:layout_column="0" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/season"
+                    android:layout_below="@+id/spinnerPrenda"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_row="1"
+                    android:layout_column="0" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerTemporada"
+                    android:gravity="center"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_alignLeft="@+id/spinnerPrenda"
+                    android:layout_alignStart="@+id/spinnerPrenda"
+                    android:layout_row="3"
+                    android:layout_column="0" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/occasion"
+                    android:layout_below="@+id/spinnerTemporada"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/spinnerTemporada"
+                    android:layout_alignEnd="@+id/spinnerTemporada"
+                    android:layout_row="4"
+                    android:layout_column="0" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerOcasion"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_row="5"
+                    android:layout_column="0" />
+
+            </TableLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:maxHeight="100dp"
+                android:id="@+id/imageViewPrenda"
+                android:src="@android:drawable/ic_delete"
+                android:layout_above="@+id/imageButtonAceptar"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_gravity="center"
+                android:layout_row="11"
+                android:layout_column="0" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonAceptar"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/abc_btn_check_to_on_mtrl_015"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_row="12"
+                android:layout_column="0" />
+
+        </GridLayout>
+    </RelativeLayout>
+
+</LinearLayout>

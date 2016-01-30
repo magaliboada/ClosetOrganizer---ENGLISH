@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd0c2a7"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonPantalones"
+            android:scaleType="fitXY"
+            android:src="@drawable/jeans"
+            android:layout_above="@+id/buttonJersei"
+            android:layout_toRightOf="@+id/buttonShirt"
+            android:layout_toEndOf="@+id/buttonShirt"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonAbrigo"
+            android:src="@drawable/jacket"
+            android:scaleType="fitXY"
+            android:layout_above="@+id/buttonMono"
+            android:layout_alignLeft="@+id/buttonJersei"
+            android:layout_alignStart="@+id/buttonJersei"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonBelt"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/belt" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonJersei"
+            android:src="@drawable/pullover"
+            android:scaleType="fitXY"
+            android:layout_above="@+id/buttonAbrigo"
+            android:layout_alignLeft="@+id/buttonShirt"
+            android:layout_alignStart="@+id/buttonShirt"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonMono"
+            android:src="@drawable/mono"
+            android:scaleType="fitXY"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/buttonAbrigo"
+            android:layout_alignStart="@+id/buttonAbrigo"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_gravity="right" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonHat"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:src="@drawable/hat"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonZapatos"
+            android:src="@drawable/shoes"
+            android:scaleType="fitXY"
+            android:layout_above="@+id/buttonFalda"
+            android:layout_alignLeft="@+id/buttonVestido"
+            android:layout_alignStart="@+id/buttonVestido"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonFalda"
+            android:src="@drawable/skirt1"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/buttonAbrigo"
+            android:layout_alignLeft="@+id/buttonZapatos"
+            android:layout_alignStart="@+id/buttonZapatos"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonShirt"
+            android:src="@drawable/shirt"
+            android:scaleType="fitXY"
+            android:layout_above="@+id/buttonJersei"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonVestido"
+            android:src="@drawable/dress"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/buttonPantalones"
+            android:layout_alignLeft="@+id/buttonPantalones"
+            android:layout_alignStart="@+id/buttonPantalones"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonShorts"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:src="@drawable/shorts"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:id="@+id/buttonLeggins"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/leggins" />
+    </GridLayout>
+</LinearLayout>

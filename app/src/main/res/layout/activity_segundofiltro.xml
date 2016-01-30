@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd0c2a7">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="100"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/buttonGris"
+            android:layout_below="@+id/buttonBlanco"
+            android:layout_alignLeft="@+id/buttonAzul"
+            android:layout_alignStart="@+id/buttonAzul"
+            android:background="#ff98a192"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginRight="25dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="74dp"
+            android:id="@+id/buttonAmarillo"
+            android:layout_above="@+id/buttonMorado"
+            android:layout_alignLeft="@+id/buttonMorado"
+            android:layout_alignStart="@+id/buttonMorado"
+            android:background="#a0ffff64"
+            android:layout_row="2"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/buttonMarron"
+            android:layout_below="@+id/buttonAzul"
+            android:layout_alignLeft="@+id/buttonAzul"
+            android:layout_alignStart="@+id/buttonAzul"
+            android:background="#ef6c4d16"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/buttonNegro"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/buttonRojo"
+            android:layout_alignStart="@+id/buttonRojo"
+            android:background="#ff000000"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/buttonRosa"
+            android:layout_below="@+id/buttonMarron"
+            android:layout_toLeftOf="@+id/buttonMorado"
+            android:layout_toStartOf="@+id/buttonMorado"
+            android:background="#a6ed5e7d"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/buttonAzul"
+            android:layout_alignBottom="@+id/buttonVerde"
+            android:layout_toLeftOf="@+id/buttonMorado"
+            android:layout_toStartOf="@+id/buttonMorado"
+            android:background="#9b0066ff"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="74dp"
+            android:id="@+id/buttonVerde"
+            android:layout_below="@+id/buttonRojo"
+            android:layout_alignRight="@+id/buttonMorado"
+            android:layout_alignEnd="@+id/buttonMorado"
+            android:background="#ac239b16"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="74dp"
+            android:id="@+id/buttonMorado"
+            android:layout_alignTop="@+id/buttonNaranja"
+            android:layout_toRightOf="@+id/buttonNaranja"
+            android:layout_toEndOf="@+id/buttonNaranja"
+            android:background="#eb942f59"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/buttonNaranja"
+            android:layout_below="@+id/buttonRosa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#cafaa02a"
+            android:layout_row="3"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttonRojo"
+            android:layout_below="@+id/buttonNegro"
+            android:layout_alignLeft="@+id/buttonVerde"
+            android:layout_alignStart="@+id/buttonVerde"
+            android:background="#d8ff0022"
+            android:layout_row="4"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/buttonBlanco"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/buttonGris"
+            android:layout_alignStart="@+id/buttonGris"
+            android:background="#fffffff9"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/buttonBeix"
+            android:layout_above="@+id/buttonRosa"
+            android:layout_alignLeft="@+id/buttonVerde"
+            android:layout_alignStart="@+id/buttonVerde"
+            android:background="#ffd0b898"
+            android:layout_row="4"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/buttonMulticolor"
+            android:layout_below="@+id/buttonNaranja"
+            android:layout_alignLeft="@+id/buttonNaranja"
+            android:layout_alignStart="@+id/buttonNaranja"
+            android:background="@drawable/molinillo"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="Multicolor"
+            android:textColor="#fffffcf8" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:id="@+id/buttonSinFiltro"
+            android:layout_below="@+id/buttonNaranja"
+            android:layout_alignLeft="@+id/buttonNaranja"
+            android:layout_alignStart="@+id/buttonNaranja"
+            android:background="@drawable/images"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:text="NO FILTER"
+            android:textColor="#fffffcf8" />
+
+    </GridLayout>
+
+</LinearLayout>

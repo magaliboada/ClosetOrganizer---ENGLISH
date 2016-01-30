@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd0c2a7">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:src="@drawable/material"
+            android:layout_marginTop="30dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerMaterial"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView6"
+            android:src="@drawable/colorprenda"
+            android:layout_marginTop="65dp"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAceptar"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/abc_btn_check_to_on_mtrl_015"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerColor"
+            android:layout_below="@+id/imageView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:id="@+id/imageViewPrenda"
+            android:focusableInTouchMode="false"
+            android:layout_below="@+id/spinnerColor"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:alpha="100" />
+    </RelativeLayout>
+
+</LinearLayout>

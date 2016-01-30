@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd0c2a7"
+    android:weightSum="1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/newwear"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="bottom|center|right" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonGaleria"
+                android:src="@drawable/iconogaleria"
+                android:maxWidth="100dp"
+                android:layout_below="@+id/imageView"
+                android:layout_toRightOf="@+id/parametroURL"
+                android:layout_toEndOf="@+id/parametroURL"
+                android:layout_row="1"
+                android:layout_column="15"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonCamara"
+                android:src="@drawable/iconocamara"
+                android:layout_alignTop="@+id/buttonGaleria"
+                android:layout_toRightOf="@+id/buttonGaleria"
+                android:layout_toEndOf="@+id/buttonGaleria"
+                android:layout_row="1"
+                android:layout_column="53"
+                android:adjustViewBounds="false"
+                android:layout_span="1"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+        </TableRow>
+
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width = "fill_parent"
+            android:layout_height= "fill_parent"
+            android:maxHeight="280dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageViewPrenda"
+            android:src="@drawable/imagenpred"
+            android:layout_row="22"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/buttonAceptar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAceptar"
+            android:src="@drawable/abc_btn_check_to_on_mtrl_015"
+            android:layout_row="25"
+            android:layout_column="0"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/parametroURL"
+        android:layout_marginBottom="110dp"
+        android:visibility="invisible"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffd0c2a7"
+        android:id="@+id/RelativeLayout"><![CDATA[
+
+        />
+
+    ]]>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewTitol"
+            android:src="@drawable/titulo2"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewFondotrans"
+            android:focusableInTouchMode="false"
+            android:scaleType="center"
+            android:src="@drawable/fondotranss"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNuevaPrenda"
+            android:src="@drawable/quepasa"
+            android:layout_marginTop="38dp"
+            android:layout_alignTop="@+id/imageViewFondotrans"
+            android:layout_alignLeft="@+id/buttonInfo"
+            android:layout_alignStart="@+id/buttonInfo" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonInfo"
+            android:src="@drawable/iconoinfo"
+            android:layout_alignTop="@+id/buttonAjustes"
+            android:layout_alignLeft="@+id/imageViewFondotrans"
+            android:layout_alignStart="@+id/imageViewFondotrans"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAjustes"
+            android:src="@drawable/heartss"
+            android:layout_marginBottom="34dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/buttonInfo"
+            android:layout_toEndOf="@+id/buttonInfo"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonArmario"
+            android:src="@drawable/iconoarmario"
+            android:layout_alignTop="@+id/buttonNuevaPrenda"
+            android:layout_alignLeft="@+id/buttonAjustes"
+            android:layout_alignStart="@+id/buttonAjustes" />
+    </RelativeLayout>
+</LinearLayout>
